@@ -1,21 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Calendar, 
-  Users, 
-  IndianRupee, 
-  TrendingUp, 
-  Clock, 
-  CheckCircle, 
-  XCircle,
-  Eye,
-  Edit,
-  Trash2,
-  Filter,
-  Download,
-  Mail,
-  Phone
-} from 'lucide-react';
+import { Calendar, Users, IndianRupee, TrendingUp, Clock, CheckCircle, XCircle, Eye, FileEdit as Edit, Trash2, Filter, Download, Mail, Phone } from 'lucide-react';
 import toast from 'react-hot-toast';
 import api from '../utils/api';
 import { isAdmin } from '../utils/auth';
